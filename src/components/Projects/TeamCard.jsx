@@ -4,8 +4,8 @@ function TeamCard(props) {
   return (
     <div>
       <img src={props.image} alt="" />
-      <div>{props.name}</div>
-      <div>{props.description}</div>
+      <div className="">{props.name}</div>
+      <div className="">{props.description}</div>
     </div>
   );
 }

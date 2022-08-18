@@ -6,12 +6,13 @@ function TeamsList() {
   return (
     <div>
       {teamsList &&
-        teamsList.map((project, index) => {
+        teamsList.map((team, index) => {
           return (
             <TeamCard
-              name={project.name}
-              description={project.description}
-              image={project.image}
+              key={index}
+              name={team.name}
+              description={team.description}
+              image={team.image}
             />
           );
         })}

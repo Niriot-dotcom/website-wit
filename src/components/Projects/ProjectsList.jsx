@@ -9,6 +9,7 @@ function ProjectsList() {
         projectsList.map((project, index) => {
           return (
             <ProjectCard
+              key={index}
               name={project.name}
               description={project.description}
               image={project.image}
