@@ -4,9 +4,9 @@ import AppRouter from "./components/common/AppRouter";
 
 function App() {
   return (
-    <div className="App">
-      <AppRouter />
+    <div className="App font-sans">
       <AppNavbar />
+      <AppRouter />
     </div>
   );
 }
