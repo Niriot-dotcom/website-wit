@@ -1,20 +1,20 @@
 import React from "react";
-import logo from "../../src/Images/Logo_ACMW.png";
-import { NavLink } from "react-router-dom";
+import logo from "../../src/images/Logo_ACMW.png";
 
 function Home() {
   return (
-    <div className="h-56 grid grid-cols-3 gap-4 content-around ...">
+    <div className="h-56 grid grid-cols-2 gap-4">
       <div>
       <img
-        className="object-none object-center bg-yellow-300 w-90 h-90 ..."
+        className="object-none object-center w-full h-full"
         src={logo}
-      ></img>
+        alt="logo"
+      />
       </div>
-      <div>
+      <div className="content-center align-middle items-center mt-10 w-full h-full">
         <h3>ACM-W Panamericana</h3>
         <h2>¿Quienes somos?</h2>
-        <h1>ACM-W es una asosiación con la visión de motivar a mujeres </h1>
+        <h1>ACM-W es una asociación con la visión de motivar a mujeres </h1>
       </div>
 
       {/* <style>
