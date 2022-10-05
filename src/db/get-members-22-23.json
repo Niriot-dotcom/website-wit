@@ -1,0 +1,76 @@
+[
+    {
+       "category":"ACTIVE_MEMBERS",
+       "members":[
+          {
+             "name":" ",
+             "position":" ",
+             "year":" ",
+             "about":" "
+          },
+          {
+             "name":" ",
+             "position":" ",
+             "year":" ",
+             "about":" "
+          },
+          {
+             "name":" ",
+             "position":" ",
+             "year":" ",
+             "about":" "
+          }
+       ]
+
+    },
+    {
+        "category":"consejo_ejecutivo",
+        "members":[
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           },
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           },
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           }
+        ]
+
+
+    },
+    {
+        "category":"Facultad y ",
+        "members":[
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           },
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           },
+           {
+              "name":" ",
+              "position":" ",
+              "year":" ",
+              "about":" "
+           }
+        ]
+
+
+    }
+ ]
