@@ -25,7 +25,6 @@ function About() {
         miembros de ACM y trabajando en la comunidad en general para proponer
         las contribuciones de las mujeres en STEM.
       </p>
-      
     </div>
   );
 }
