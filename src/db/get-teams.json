@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Eventos",
+    "description": "Planifica y realiza eventos para promover y apoyar a la mujer a través de workshops, actividades y/o conferencias.",
+    "image": "team-events.png"
+  },
+  {
+    "name": "Web",
+    "description": "Construye y mantiene actualizada la página web con todo lo relacionado con el capítulo.",
+    "image": "team-website.png"
+  },
+  {
+    "name": "Redes sociales",
+    "description": "Promueve el sentido de comunidad entre mujeres interesadas en áreas STEM creando un espacio para informarse, aprender y expresarse libremente.",
+    "image": "team-social-media.png"
+  }
+]

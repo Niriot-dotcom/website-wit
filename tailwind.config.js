@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'acmw-purple': "#2D1A43",
-        'acmw-light': "#D4EBFA",
-        'acmw-blue': "#6DD0F7",
-        'acmw-gray': "#E0E0E0",
-        'acmw-pink': "#CB94DB",
+        "acmw-purple": "#2D1A43",
+        "acmw-light": "#D4EBFA",
+        "acmw-blue": "#6DD0F7",
+        "acmw-gray": "#E0E0E0",
+        "acmw-pink": "#CB94DB",
       },
     },
   },

@@ -1,10 +1,10 @@
 import React from "react";
-import teamsList from "../../db/teams-get.json";
+import teamsList from "../../db/get-teams.json";
 import TeamCard from "./TeamCard";
 
 function TeamsList() {
   return (
-    <div>
+    <div className="flex flex-wrap justify-center">
       {teamsList &&
         teamsList.map((team, index) => {
           return (

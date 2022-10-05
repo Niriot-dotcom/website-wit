@@ -1,10 +1,10 @@
 import React from "react";
-import projectsList from "../../db/projects-get.json";
+import projectsList from "../../db/get-projects.json";
 import ProjectCard from "./ProjectCard";
 
 function ProjectsList() {
   return (
-    <div>
+    <div className="flex flex-wrap justify-center">
       {projectsList &&
         projectsList.map((project, index) => {
           return (

@@ -10,11 +10,7 @@ function Home() {
         <h1>ACM-W es una asociación con la visión de motivar a mujeres </h1>
       </div>
       <div className="items-center">
-        <img
-          className="w-80 h-full"
-          src={logo}
-          alt="logo"
-        />
+        <img className="w-80 h-full" src={logo} alt="logo" />
       </div>
 
       {/* <style>

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Modelado 3D",
+    "description": "lorem impsum",
+    "image": "project-3d-modeling.png"
+  },
+  {
+    "name": "Asesorias",
+    "description": "lorem impsum",
+    "image": "project-advising.png"
+  },
+  {
+    "name": "Programacion competitiva",
+    "description": "Se tiene el proposito de crear un ambiente que atraiga a chicas",
+    "image": "project-cp.png"
+  }
+]

@@ -3,7 +3,7 @@ import imgLogoAcmw from "../../images/logos/Logo_Panamericana-ACM-W_Color_Horizo
 
 function AppNavbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-acmw-pink p-6">
+    <nav className="flex items-center justify-between flex-wrap bg-acmw-pink p-6 rounded-b-3xl">
       <div className="flex items-center flex-shrink-0">
         <img
           className="fill-current h-24 w-full mr-2"
@@ -17,34 +17,34 @@ function AppNavbar() {
         </button>
       </div> */}
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <div className="text-sm lg:flex-grow">
+        <div className="text-lg lg:flex-grow">
           <a
             href="/home"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Inicio
           </a>
           <a
             href="/members"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Miembros
           </a>
           <a
             href="/projects"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Proyectos
           </a>
           <a
             href="/events"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Eventos
           </a>
           <a
             href="/contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Contacto
           </a>
@@ -52,7 +52,7 @@ function AppNavbar() {
         <div>
           <a
             href="/register"
-            className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-acmw-purple hover:bg-white mt-4 lg:mt-0"
+            className="inline-block text-lg px-6 py-4 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-acmw-purple hover:bg-white mt-4 lg:mt-0 transition-all duration-300"
           >
             Registrarme
           </a>
