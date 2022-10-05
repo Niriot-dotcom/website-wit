@@ -1,20 +1,20 @@
 import React from "react";
-import logo from "../../src/images/Logo_ACMW.png";
+import logo from "../../src/images/logos/Logo_Panamericana-ACM-W_Color_Simbolo.png";
 
 function Home() {
   return (
-    <div className="h-56 grid grid-cols-2 gap-4">
-      <div>
-      <img
-        className="object-none object-center w-full h-full"
-        src={logo}
-        alt="logo"
-      />
-      </div>
+    <div className="h-56 grid grid-cols-2 place-items-center gap-4">
       <div className="content-center align-middle items-center mt-10 w-full h-full">
         <h3>ACM-W Panamericana</h3>
         <h2>¿Quienes somos?</h2>
         <h1>ACM-W es una asociación con la visión de motivar a mujeres </h1>
+      </div>
+      <div className="items-center">
+        <img
+          className="w-80 h-full"
+          src={logo}
+          alt="logo"
+        />
       </div>
 
       {/* <style>

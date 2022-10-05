@@ -1,12 +1,15 @@
 import React from "react";
-import imgLogoAcmw from "../../images/Logo_ACMW.png"
+import imgLogoAcmw from "../../images/logos/Logo_Panamericana-ACM-W_Color_Horizontal.png";
 
 function AppNavbar() {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img className="fill-current h-8 w-8 mr-2" src={imgLogoAcmw} alt="logo" />
-        <span className="font-semibold text-xl tracking-tight">UP ACM-W Ags</span>
+    <nav className="flex items-center justify-between flex-wrap bg-acmw-pink p-6">
+      <div className="flex items-center flex-shrink-0">
+        <img
+          className="fill-current h-24 w-full mr-2"
+          src={imgLogoAcmw}
+          alt="logo"
+        />
       </div>
       {/* <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -15,24 +18,44 @@ function AppNavbar() {
       </div> */}
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
-          <a href="/home" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Home
+          <a
+            href="/home"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+          >
+            Inicio
           </a>
-          <a href="/members" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Members
+          <a
+            href="/members"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+          >
+            Miembros
           </a>
-          <a href="/projects" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Projects
+          <a
+            href="/projects"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+          >
+            Proyectos
           </a>
-          <a href="/events" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Events
+          <a
+            href="/events"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+          >
+            Eventos
           </a>
-          <a href="/contact" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-            Contact
+          <a
+            href="/contact"
+            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-4"
+          >
+            Contacto
           </a>
         </div>
         <div>
-          <a href="/register" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Register</a>
+          <a
+            href="/register"
+            className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-acmw-purple hover:bg-white mt-4 lg:mt-0"
+          >
+            Registrarme
+          </a>
         </div>
       </div>
     </nav>

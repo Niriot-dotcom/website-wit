@@ -2,13 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    colors: {
-      'acmw-purple': "#370665",
-      'acmw-white': "#F0F0F0",
-      'acmw-blue': "#0096FF",
-      'acmw-gray': "#E0E0E0",
+    extend: {
+      colors: {
+        'acmw-purple': "#2D1A43",
+        'acmw-light': "#D4EBFA",
+        'acmw-blue': "#6DD0F7",
+        'acmw-gray': "#E0E0E0",
+        'acmw-pink': "#CB94DB",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
