@@ -7,14 +7,7 @@ function ProjectsList() {
     <div className="flex flex-wrap justify-center">
       {projectsList &&
         projectsList.map((project, index) => {
-          return (
-            <ProjectCard
-              key={index}
-              name={project.name}
-              description={project.description}
-              image={project.image}
-            />
-          );
+          return <ProjectCard key={index} project={project} />;
         })}
     </div>
   );

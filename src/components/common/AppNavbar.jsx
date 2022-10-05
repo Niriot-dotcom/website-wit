@@ -20,31 +20,31 @@ function AppNavbar() {
         <div className="text-lg lg:flex-grow">
           <a
             href="/home"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
+            className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Inicio
           </a>
           <a
             href="/members"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
+            className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Miembros
           </a>
           <a
             href="/projects"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
+            className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Proyectos
           </a>
           <a
             href="/events"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
+            className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Eventos
           </a>
           <a
             href="/contact"
-            className="block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
+            className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Contacto
           </a>
