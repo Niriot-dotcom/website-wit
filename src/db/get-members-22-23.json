@@ -15,32 +15,116 @@
         "about": " "
       },
       {
-        "name": " ",
-        "position": " ",
-        "year": " ",
+        "name": "Sofia García",
+        "position": "Co-secretaria",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "María Pachur",
+        "position": "Co-secretaria",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Yoalli Rodríguez",
+        "position": "Co-tesorera",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Constanza Corvera",
+        "position": "Co-tesorera",
+        "year": "2022",
         "about": " "
       }
     ]
   },
   {
-    "category": "EXECUTIVE_COUNCIL",
+    "category": "ACTIVE_MEMBERS",
     "members": [
       {
-        "name": " ",
-        "position": " ",
+        "name": "Fernanda Zavala",
+        "position": "Fundadora y Presidenta, Proyecto de Asesorías Académicas, Equipo de Eventos y Redes Sociales",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Yoalli Rodríguez",
+        "position": "Co-tesorera, y lider del equipo de eventos",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Diana Ballín",
+        "position": "Equipo de Eventos y Equipo de Redes Sociales",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Karina Cáceres",
+        "position": "Equipo de Eventos",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Dalia Rodríguez",
+        "position": "Equipo de Eventos",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Sofia García",
+        "position": "Co-secretaria y Co-lider del proyecto 'Modelado 3D'",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Noemí Márquez",
+        "position": "Co-lider del proyecto 'Modelado 3D'",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Paty",
+        "position": "Co-Leader del proyecto 'Página web'",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Constanza Corvera",
+        "position": "Co-tesorera y Co-Leader del proyecto 'Página web'",
         "year": " ",
         "about": " "
       },
       {
-        "name": " ",
-        "position": " ",
+        "name": "Sofía Martínez",
+        "position": "Proyecto de 'Página Web' y Programación Competitiva",
         "year": " ",
         "about": " "
       },
       {
-        "name": " ",
-        "position": " ",
-        "year": " ",
+        "name": "María Pachur",
+        "position": "Co-secretaria y lider del proyecto 'Programación competitiva'",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "María Paredes",
+        "position": "Proyecto 'Programación competitiva'",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Cristina Velázquez",
+        "position": "Vicepresidenta, Proyecto de Asesorías Académicas",
+        "year": "2022",
+        "about": " "
+      },
+      {
+        "name": "Sophia Rodríguez",
+        "position": "Proyecto de Asesorías Académicas",
+        "year": "2022",
         "about": " "
       }
     ]
