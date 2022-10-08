@@ -1,4 +1,5 @@
 import "./App.css";
+import AppFooter from "./components/common/AppFooter";
 import AppNavbar from "./components/common/AppNavbar";
 import AppRouter from "./components/common/AppRouter";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App font-sans">
       <AppNavbar />
       <AppRouter />
+      <AppFooter />
     </div>
   );
 }
