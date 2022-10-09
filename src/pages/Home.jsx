@@ -4,6 +4,8 @@ import About from "../pages/About";
 
 function Home() {
   return (
+
+    <div>
     
     <div className="h-56 grid grid-cols-2 place-items-center gap-4">
 
@@ -15,22 +17,8 @@ function Home() {
 
       <div className="items-center">
         <img className="w-80 h-full" src={logo} alt="logo" />
-      </div>
-
-      <div className="content-left align-middle items-center mt-10 w-full h-full">
-      <p> 
-        Misión: celebrar, difundir, apoyar y promover la participación de las
-        mujeres en el area de las ciencias e ingenieria en computación.      </p>
-    </div>
-   <div className="content-center align-middle items-center mt-10 w-full h-full">
-     <p>
-        Vision: Fomentar un espacio para impulsar a las mujeres en el area de
-        STEM, aportando herramientas, un espacio de aprendizaje, crecimiento y
-        desarrollo.     
-        </p>
+      </div>  
       
-       </div> 
-
       {/* <style>
   .img_logo {
     display: flex;
@@ -42,8 +30,14 @@ function Home() {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   }
   </style>  */} 
-      </div>  
-      
+      </div> 
+
+      <div className="grid grid-cols-1 gap-4">
+        <About/>
+      </div>
+
+     
+      </div>
 
   );
 }
