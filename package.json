@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "main": "index.jsx",
   "private": true,
+  "homepage": "https://niriot-dotcom.github.io/website-acmw/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.1.11",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -21,6 +23,8 @@
     "format": "npx prettier --write .",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy" : "yarn build",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
