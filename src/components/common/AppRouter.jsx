@@ -12,7 +12,7 @@ function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/members" element={<MembersPage />} />
         <Route path="/projects" element={<ProjectsPage />} />

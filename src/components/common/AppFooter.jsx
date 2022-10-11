@@ -21,7 +21,7 @@ function AppFooter() {
               Secciones principales
             </h6>
             <p className="mb-4">
-              <a href="/home" className="text-acmw-purple">
+              <a href="/" className="text-acmw-purple">
                 Inicio
               </a>
             </p>

@@ -19,7 +19,7 @@ function AppNavbar() {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-lg lg:flex-grow">
           <a
-            href="/home"
+            href="/"
             className="font-semibold block mt-4 lg:inline-block lg:mt-0 text-acmw-purple hover:text-white mr-16 transition-all duration-300"
           >
             Inicio
