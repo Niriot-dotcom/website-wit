@@ -2,10 +2,9 @@ import React from "react";
 import projectsList from "../../db/get-projects.json";
 
 function ProjectsSummary() {
-
   const handleRedirect = () => {
     window.location.href = "/projects";
-  }
+  };
 
   return (
     <div className="grid grid-cols-2 place-items-center gap-4 rounded-3xl bg-acmw-light w-full">
@@ -48,7 +47,10 @@ function ProjectsSummary() {
         </div>
 
         <div>
-          <button onClick={handleRedirect} className="bg-acmw-blue text-acmw-purple w-72 h-10 mb-8 rounded-full text-center hover:bg-acmw-purple hover:text-white transition-all duration-500">
+          <button
+            onClick={handleRedirect}
+            className="bg-acmw-blue text-acmw-purple w-72 h-10 mb-8 rounded-full text-center hover:bg-acmw-purple hover:text-white transition-all duration-500"
+          >
             Saber mas
           </button>
         </div>

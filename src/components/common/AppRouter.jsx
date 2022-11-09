@@ -6,7 +6,8 @@ import MembersPage from "../../pages/Members";
 import ProjectsPage from "../../pages/Projects";
 import EventsPage from "../../pages/Events";
 import ContactPage from "../../pages/Contact";
-import RegisterPage from "../../pages/Register";
+// import RegisterPage from "../../pages/Register";
+import NotFoundPage from "../../pages/PageNotFound";
 
 function AppRouter() {
   return (
@@ -18,7 +19,8 @@ function AppRouter() {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/register" element={<RegisterPage />} />
+        {/* <Route path="/register" element={<RegisterPage />} /> */}
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );

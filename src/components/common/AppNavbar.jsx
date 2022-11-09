@@ -51,8 +51,10 @@ function AppNavbar() {
         </div>
         <div>
           <a
-            href="/register"
-            className="inline-block text-lg px-6 py-4 leading-none border rounded-full text-white border-white hover:border-transparent hover:text-acmw-purple hover:bg-white mt-4 lg:mt-0 transition-all duration-300"
+            target="_blank"
+            href="https://forms.gle/1YnunymZhUTWQkUb9"
+            rel="noreferrer"
+            className="font-semibold tracking-wide inline-block text-lg px-6 py-4 leading-none border-4 rounded-full text-white border-white hover:border-transparent hover:text-acmw-purple hover:bg-white hover:shadow-2xl mt-4 lg:mt-0 transition-all duration-300"
           >
             Registrarme
           </a>
