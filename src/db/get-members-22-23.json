@@ -1,5 +1,18 @@
 [
   {
+    "title": "Patrocinadoras de la Facultad",
+    "category": "FACULTY_SPONSORS",
+    "members": [
+      {
+        "name": "Dra. Teresa Orvañanos",
+        "position": "Faculty Sponsor",
+        "year": "2022",
+        "about": ""
+      }
+    ]
+  },
+  {
+    "title": "Consejo Ejecutivo",
     "category": "EXECUTIVE_COUNCIL",
     "members": [
       {
@@ -24,7 +37,7 @@
         "name": "María Pachur",
         "position": "Co-secretaria",
         "year": "2022",
-        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel."
+        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel"
       },
       {
         "name": "Yoalli Rodríguez",
@@ -36,11 +49,12 @@
         "name": "Constanza Corvera",
         "position": "Co-tesorera",
         "year": "2022",
-        "about": "Amante del baile como la música."
+        "about": "Amante del baile como la música"
       }
     ]
   },
   {
+    "title": "Miembros Activas",
     "category": "ACTIVE_MEMBERS",
     "members": [
       {
@@ -53,7 +67,7 @@
         "name": "Yoalli Rodríguez",
         "position": "Co-tesorera, y lider del equipo de eventos",
         "year": "2022",
-        "about": " "
+        "about": "Le gusta salir a correr y/o caminar, Marvel y conocer nuevos lugares para comer diferentes"
       },
       {
         "name": "Diana Ballín",
@@ -95,7 +109,7 @@
         "name": "Constanza Corvera",
         "position": "Co-tesorera y Co-Leader del proyecto 'Página web'",
         "year": "2022",
-        "about": " "
+        "about": "Amante del baile como la música"
       },
       {
         "name": "Sofía Martínez",
@@ -107,7 +121,7 @@
         "name": "María Pachur",
         "position": "Co-secretaria y lider del proyecto 'Programación competitiva'",
         "year": "2022",
-        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel."
+        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel"
       },
       {
         "name": "María Paredes",
@@ -126,17 +140,6 @@
         "position": "Proyecto de Asesorías Académicas",
         "year": "2022",
         "about": "Disfruta de escuchar música, enseñar, leer, hacer deporte, conocer nuevos lugares"
-      }
-    ]
-  },
-  {
-    "category": "FACULTY_SPONSORS",
-    "members": [
-      {
-        "name": "Dra. Teresa Orvañanos",
-        "position": "Faculty Sponsor",
-        "year": "2022",
-        "about": " "
       }
     ]
   }
