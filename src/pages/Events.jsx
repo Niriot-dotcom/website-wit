@@ -49,7 +49,7 @@ function Events() {
               </p>
             </div>
             <div class="py-3 px-6 border-t border-purple-300 text-gray-600 text-xs">
-              hace 5 dias
+              en 5 dias
             </div>
           </div>
         </div>
