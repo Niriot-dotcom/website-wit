@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import imgDefault from "../../images/members/G1_2022-2023/Fernanda-Zavala.jpg"
+import *as fs from "fs"
 
 function MemberCard(props) {
+  const [imgSource, setImgSource] = useState("");
+
+useEffect(()=>{
+  if (
+    !fs.existsSync(`../../images/members/G1_2022-2023/${props.member.image}`)
+    ) {
+      setImgSource("../../images/members/G1_2022-2023/Fernanda-Zavala.jpg");
+    } else {
+      setImgSource(`../../images/members/G1_2022-2023/${props.member.image}`);
+    }
+  
+  console.log("useEffect", imgSource)
+  setImgSource(props.member.image)
+}, [props.member.image]);
   return (
     <div className="flex flex-col bg-white rounded-lg shadow-md w-full m-6 overflow-hidden sm:w-80 items-center">
       {/* <img
@@ -19,6 +35,8 @@ function MemberCard(props) {
         <div className="realtive preserve-3d group-hover:my-rotate-y-180  w-full h-full duration-1000">
           <div className="absolute  w-full h-full">
           {props.member.name}
+          <br />
+          <img src={require(imgSource) || imgDefault} alt={props.member.name} />
           </div>
           <div className="absolute my-rotate-y-180 backface-hidden bg-white w-full h-full">
             <div className="text-center flex flex-colv items-center justify-center h-full">
@@ -27,6 +45,9 @@ function MemberCard(props) {
             {props.member.year}
             <br />
             {props.member.about}
+          
+            
+
             
             </div>
           </div>
