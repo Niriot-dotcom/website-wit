@@ -1,7 +1,6 @@
 {
   "name": "website-acmw",
   "version": "0.1.0",
-  "homepage": "https://niriot-dotcom.github.io/website-acmw",
   "main": "index.jsx",
   "private": true,
   "dependencies": {
@@ -22,8 +21,6 @@
     "format": "npx prettier --write .",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
