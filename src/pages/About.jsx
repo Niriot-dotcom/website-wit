@@ -2,8 +2,8 @@ import React from "react";
 
 function About() {
   return (
-    <div className="h-56 grid grid-cols-2 place-items-center gap-4">
-      <div class="flex justify-center">
+    <div className="h-56 grid grid-cols-2 place-items-center gap-4 content-center">
+      <div class="flex justify-center h-full">
         <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
           <div class="py-3 px-6 border-b border-gray-300">
             <h5 class="text-acmw-purple text-xl font-medium mb-2">Misión</h5>
@@ -17,7 +17,7 @@ function About() {
         </div>
       </div>
 
-      <div class="flex justify-center">
+      <div class="flex justify-center h-full">
         <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
           <div class="py-3 px-6 border-b border-gray-300">
             <h5 class="text-acmw-purple text-xl font-medium mb-2">Visión</h5>

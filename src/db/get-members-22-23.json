@@ -7,7 +7,8 @@
         "name": "Dra. Teresa Orvañanos",
         "position": "Faculty Sponsor",
         "year": "2022",
-        "about": ""
+        "about": "",
+        "image": "Diana-Ballin.jpg"
       }
     ]
   },
@@ -20,42 +21,48 @@
         "image": "Fernanda-Zavala.jpg",
         "position": "Presidenta",
         "year": "2022",
-        "about": "Entusiasta del arte y manualidades, y disfruta de escuchar podcast y música"
+        "about": "Entusiasta del arte y manualidades, y disfruta de escuchar podcast y música",
+        "image": "Fernanda-Zavala.jpg"
       },
       {
         "name": "Cristina Velázquez",
         "image": "Cristina-Velazquez.jpg",
         "position": "Vicepresidenta",
         "year": "2022",
-        "about": "Sus pasatiempos favoritos son la lectura y aprender nuevas cosas"
+        "about": "Sus pasatiempos favoritos son la lectura y aprender nuevas cosas",
+        "image": "Cristina-Velazquez.jpg"
       },
       {
         "name": "Sofia García",
         "image": "Sofia-Garcia.jpg",
         "position": "Co-secretaria",
         "year": "2022",
-        "about": "Gusta de leer, escribir y ver series animadas, la repostería y realizar actividad física"
+        "about": "Gusta de leer, escribir y ver series animadas, la repostería y realizar actividad física",
+        "image": "Sofia-Garcia.jpg"
       },
       {
         "name": "María Pachur",
         "image": "Maria-Pachur.jpg",
         "position": "Co-secretaria",
         "year": "2022",
-        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel"
+        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel",
+        "image": "Maria-Pachur.jpg"
       },
       {
         "name": "Yoalli Rodríguez",
         "image": "Yoalli-Rodriguez.jpg",
         "position": "Co-tesorera",
         "year": "2022",
-        "about": "Le gusta salir a correr y/o caminar, Marvel y conocer nuevos lugares para comer diferentes"
+        "about": "Le gusta salir a correr y/o caminar, Marvel y conocer nuevos lugares para comer diferentes",
+        "image": "Yoalli-Rodriguez.jpg"
       },
       {
         "name": "Constanza Corvera",
         "image": "Constanza-Corvera.jpg",
         "position": "Co-tesorera",
         "year": "2022",
-        "about": "Amante del baile como la música"
+        "about": "Amante del baile como la música",
+        "image": "Constanza-Corvera.jpg"
       }
     ]
   },
@@ -68,98 +75,112 @@
         "image": "Fernanda-Zavala.jpg",
         "position": "Fundadora y Presidenta, Proyecto de Asesorías Académicas, Equipo de Eventos y Redes Sociales",
         "year": "2022",
-        "about": "Entusiasta del arte y manualidades, y disfruta de escuchar podcast y música"
+        "about": "Entusiasta del arte y manualidades, y disfruta de escuchar podcast y música",
+        "image": "Fernanda-Zavala.jpg"
       },
       {
         "name": "Yoalli Rodríguez",
         "image": "Yoalli-Rodriguez.jpg",
         "position": "Co-tesorera, y lider del equipo de eventos",
         "year": "2022",
-        "about": "Le gusta salir a correr y/o caminar, Marvel y conocer nuevos lugares para comer diferentes"
+        "about": "Le gusta salir a correr y/o caminar, Marvel y conocer nuevos lugares para comer diferentes",
+        "image": "Yoalli-Rodriguez.jpg"
       },
       {
         "name": "Diana Ballín",
         "image": "Diana-Ballin.jpg",
         "position": "Equipo de Eventos y Equipo de Redes Sociales",
         "year": "2022",
-        "about": "Disfruta leer, tejer y tiene una gran pasión por la fotografía y las películas"
+        "about": "Disfruta leer, tejer y tiene una gran pasión por la fotografía y las películas",
+        "image": "Diana-Ballin.jpg"
       },
       {
         "name": "Karina Cáceres",
         "image": "Karina-Cáceres.jpg",
         "position": "Equipo de Eventos",
         "year": "2022",
-        "about": "Le apasiona el arte de la pintura, su historia y práctica"
+        "about": "Le apasiona el arte de la pintura, su historia y práctica",
+        "image": "Karina-Caceres.jpg"
       },
       {
         "name": "Dalia Rodríguez",
         "image": "Dalia-Rodríguez.jpg",
         "position": "Equipo de Eventos",
         "year": "2022",
-        "about": "Disfruta de dibujar, escuchar música, leer y escribir"
+        "about": "Disfruta de dibujar, escuchar música, leer y escribir",
+        "image": "Dalia-Rodriguez.jpg"
       },
       {
         "name": "Sofia García",
         "image": "Sofia-Garcia.jpg",
         "position": "Co-secretaria y Co-lider del proyecto 'Modelado 3D'",
         "year": "2022",
-        "about": "Gusta de leer, escribir y ver series animadas, la repostería y realizar actividad física"
+        "about": "Gusta de leer, escribir y ver series animadas, la repostería y realizar actividad física",
+        "image": "Sofia-Garcia.jpg"
       },
       {
         "name": "Noemí Márquez",
         "image": "Noemi-Marquez.jpg",
         "position": "Co-lider del proyecto 'Modelado 3D'",
         "year": "2022",
-        "about": "Disfruta de la música, la literatura e interactuar con los animales"
+        "about": "Disfruta de la música, la literatura e interactuar con los animales",
+        "image": "Noemi-Marquez.jpg"
       },
       {
         "name": "Paty López",
         "image": "Paty-Lopez.jpg",
         "position": "Co-Leader del proyecto 'Página web'",
         "year": "2022",
-        "about": "Disfruta escuchar música, jugar fútbol soccer y jugar videojuegos"
+        "about": "Disfruta escuchar música, jugar fútbol soccer y jugar videojuegos",
+        "image": "Paty-Lopez.jpg"
       },
       {
         "name": "Constanza Corvera",
         "image": "Constanza-Corvera.jpg",
         "position": "Co-tesorera y Co-Leader del proyecto 'Página web'",
         "year": "2022",
-        "about": "Amante del baile como la música"
+        "about": "Amante del baile como la música",
+        "image": "Constanza-Corvera.jpg"
       },
       {
         "name": "Sofía Martínez",
         "image": "Sofía-Martínez.jpg",
         "position": "Proyecto de 'Página Web' y Programación Competitiva",
         "year": "2022",
-        "about": "Amante de la lectura, disfruta de escuchar música, las manualidades, ver series y películas"
+        "about": "Amante de la lectura, disfruta de escuchar música, las manualidades, ver series y películas",
+        "image": "Sofia-Martinez.jpg"
       },
       {
         "name": "María Pachur",
         "image": "Maria-Pachur.jpg",
         "position": "Co-secretaria y lider del proyecto 'Programación competitiva'",
         "year": "2022",
-        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel"
+        "about": "Le apasiona el arte musical, el patinaje en hielo y las manualidades en barro y papel",
+        "image": "Maria-Pachur.jpg"
       },
       {
         "name": "María Paredes",
         "image": "María-Paredes.jpg",
         "position": "Proyecto 'Programación competitiva'",
         "year": "2022",
-        "about": "Gusta de ver Kdramas, de  pintar y dibujar, de escribir y componer, y de aprender idiomas"
+        "about": "Gusta de ver Kdramas, de  pintar y dibujar, de escribir y componer, y de aprender idiomas",
+        "image": "Maria-Paredes.jpg"
       },
       {
         "name": "Cristina Velázquez",
         "image": "Cristina-Velazquez.jpg",
         "position": "Vicepresidenta, Proyecto de Asesorías Académicas",
         "year": "2022",
-        "about": "Sus pasatiempos favoritos son la lectura y aprender nuevas cosas"
+        "about": "Sus pasatiempos favoritos son la lectura y aprender nuevas cosas",
+        "image": "Cristina-Velazquez.jpg"
       },
       {
         "name": "Sophia Rodríguez",
         "image": "Sophia-Rodriguez.jpg",
         "position": "Proyecto de Asesorías Académicas",
         "year": "2022",
-        "about": "Disfruta de escuchar música, enseñar, leer, hacer deporte, conocer nuevos lugares"
+        "about": "Disfruta de escuchar música, enseñar, leer, hacer deporte, conocer nuevos lugares",
+        "image": "Sophia-Rodriguez.jpg"
       }
     ]
   }

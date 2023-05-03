@@ -43,7 +43,7 @@ function ProjectsSummary() {
         <div className="text-md text-justify py-8 px-16">
           A traves de nuestros proyectos podras mejorar tus habilidades o
           aprender cosas nuevas. Ademas, conoceras a nuevas mujeres con las que
-          compartes intereses y compartir tus experiencias y conocmientos.
+          compartes intereses y compartir tus experiencias y conocimientos.
         </div>
 
         <div>
