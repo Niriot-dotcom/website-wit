@@ -1,15 +1,15 @@
 import React from "react";
-import imgLogoAcmw from "../../images/logos/Logo_Panamericana-ACM-W_Color_Horizontal.png";
+import imgLogoAcmw from "../../images/logos/logo.png";
 
 function AppFooter() {
   return (
-    <footer className="text-center lg:text-left bg-acmw-light text-acmw-purple">
+    <footer className="text-center lg:text-left bg-wit-light text-wit-blue">
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center flex-shrink-0">
               <img
-                className="fill-current h-32 mr-2"
+                className="h-32 object-contain"
                 src={imgLogoAcmw}
                 alt="logo"
               />
@@ -21,22 +21,22 @@ function AppFooter() {
               Secciones principales
             </h6>
             <p className="mb-4">
-              <a href="/" className="text-acmw-purple">
+              <a href="/" className="text-wit-blue">
                 Inicio
               </a>
             </p>
             <p className="mb-4">
-              <a href="/members" className="text-acmw-purple">
+              <a href="/members" className="text-wit-blue">
                 Miembros
               </a>
             </p>
             <p className="mb-4">
-              <a href="/projects" className="text-acmw-purple">
+              <a href="/projects" className="text-wit-blue">
                 Proyectos
               </a>
             </p>
             <p>
-              <a href="/contact" className="text-acmw-purple">
+              <a href="/contact" className="text-wit-blue">
                 Contacto
               </a>
             </p>
@@ -45,9 +45,9 @@ function AppFooter() {
             <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               Redes Sociales
             </h6>
-            {/* <a target="_blank" rel="noreferrer" href="#!" className="flex mr-6 text-acmw-purple mb-4">
+            {/* <a target="_blank" rel="noreferrer" href="#!" className="flex mr-6 text-wit-blue mb-4">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
-          className="fill-acmw-purple w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
+          className="fill-wit-blue w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 320 512">
           <path fill="currentColor"
             d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
@@ -59,14 +59,14 @@ function AppFooter() {
               target="_blank"
               rel="noreferrer"
               href="https://www.instagram.com/panamericana.acmw/"
-              className="flex mr-6 text-acmw-purple mb-4"
+              className="flex mr-6 text-wit-blue mb-4"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="instagram"
-                className="fill-acmw-purple w-3.5"
+                className="fill-wit-blue w-3.5"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -78,9 +78,9 @@ function AppFooter() {
               </svg>
               &nbsp;&nbsp;Instagram
             </a>
-            {/* <a target="_blank" rel="noreferrer" href="#!" className="flex mr-6 text-acmw-purple mb-4">
+            {/* <a target="_blank" rel="noreferrer" href="#!" className="flex mr-6 text-wit-blue mb-4">
         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
-          className="fill-acmw-purple w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
+          className="fill-wit-blue w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512">
           <path fill="currentColor"
             d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
@@ -99,7 +99,7 @@ function AppFooter() {
                 focusable="false"
                 data-prefix="fas"
                 data-icon="home"
-                className="fill-acmw-purple w-4 mr-4"
+                className="fill-wit-blue w-4 mr-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 576 512"
@@ -117,7 +117,7 @@ function AppFooter() {
                 focusable="false"
                 data-prefix="fas"
                 data-icon="envelope"
-                className="fill-acmw-purple w-4 mr-4"
+                className="fill-wit-blue w-4 mr-4"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -132,9 +132,9 @@ function AppFooter() {
           </div>
         </div>
       </div>
-      <div className="text-center p-6 bg-acmw-pink">
-        <span className="text-acmw-purple font-semibold">
-          © 2022 Universidad Panamericana
+      <div className="text-center p-6 bg-wit-green">
+        <span className="text-white font-semibold">
+          © 2024 WIT (Women In Technology)
         </span>
       </div>
     </footer>

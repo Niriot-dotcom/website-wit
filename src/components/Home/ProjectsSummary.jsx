@@ -7,13 +7,13 @@ function ProjectsSummary() {
   };
 
   return (
-    <div className="grid grid-cols-2 place-items-center gap-4 rounded-3xl bg-acmw-light w-full">
+    <div className="grid grid-cols-2 place-items-center gap-4 rounded-3xl bg-wit-light w-full">
       <div className="content-center align-middle items-center mt-10 w-full h-full">
         <div className="flex flex-wrap justify-center">
           {projectsList &&
             projectsList.map((project, index) => {
               return (
-                <div className="flex flex-col py-1 bg-white hover:bg-acmw-pink transition-all duration-500 rounded-lg shadow-md w-36 m-6 h-28 overflow-hidden sm:w-28 items-center">
+                <div className="flex flex-col py-1 bg-white hover:bg-wit-green transition-all duration-500 rounded-lg shadow-md w-36 m-6 h-28 overflow-hidden sm:w-28 items-center">
                   <img
                     src={require(`../../images/icons/${project.image}`)}
                     alt=""
@@ -24,7 +24,7 @@ function ProjectsSummary() {
                   </h2>
 
                   {/* <button
-        className="bg-acmw-blue text-acmw-purple w-full h-10 rounded-none text-center hover:bg-acmw-purple hover:text-white transition-all duration-500"
+        className="bg-wit-blue text-wit-blue w-full h-10 rounded-none text-center hover:bg-wit-blue hover:text-white transition-all duration-500"
       >
                   <h2 className="text-center px-2 pb-5 text-sm">{project.name}</h2>
 
@@ -49,7 +49,7 @@ function ProjectsSummary() {
         <div>
           <button
             onClick={handleRedirect}
-            className="bg-acmw-blue text-acmw-purple w-72 h-10 mb-8 rounded-full text-center hover:bg-acmw-purple hover:text-white transition-all duration-500"
+            className="bg-wit-blue text-wit-blue w-72 h-10 mb-8 rounded-full text-center hover:bg-wit-blue hover:text-white transition-all duration-500"
           >
             Saber mas
           </button>

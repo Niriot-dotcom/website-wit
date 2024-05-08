@@ -11,7 +11,7 @@ function TeamCard(props) {
       <h2 className="text-center px-2 pb-5 font-semibold tracking-wide text-lg">
         {props.name}
       </h2>
-      <button disabled className="bg-acmw-purple text-white w-full h-40 p-5">
+      <button disabled className="bg-wit-blue text-white w-full h-40 p-5">
         {props.description}
       </button>
     </div>

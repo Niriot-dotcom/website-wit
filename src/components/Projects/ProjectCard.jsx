@@ -30,7 +30,7 @@ function ProjectCard(props) {
 
       <button
         onClick={toggleModal}
-        className="bg-acmw-blue text-acmw-purple w-full h-10 rounded-none text-center hover:bg-acmw-purple hover:text-white transition-all duration-500"
+        className="bg-wit-blue text-wit-blue w-full h-10 rounded-none text-center hover:bg-wit-blue hover:text-white transition-all duration-500"
       >
         Saber mas
       </button>

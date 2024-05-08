@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../src/images/logos/Logo_Panamericana-ACM-W_Color_Simbolo.png";
+import logo from "../../src/images/logos/logo.png";
 import ProjectsSummary from "../components/Home/ProjectsSummary";
 import About from "../pages/About";
 

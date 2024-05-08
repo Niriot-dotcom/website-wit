@@ -6,7 +6,7 @@ function About() {
       <div class="flex justify-center">
         <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
           <div class="py-3 px-6 border-b border-gray-300">
-            <h5 class="text-acmw-purple text-xl font-medium mb-2">Misión</h5>
+            <h5 class="text-wit-blue text-xl font-medium mb-2">Misión</h5>
           </div>
           <div class="p-4">
             <p class="text-gray-700 text-base mb-4">
@@ -20,7 +20,7 @@ function About() {
       <div class="flex justify-center">
         <div class="block rounded-lg shadow-lg bg-white max-w-sm text-center">
           <div class="py-3 px-6 border-b border-gray-300">
-            <h5 class="text-acmw-purple text-xl font-medium mb-2">Visión</h5>
+            <h5 class="text-wit-blue text-xl font-medium mb-2">Visión</h5>
           </div>
           <div class="p-4">
             <p class="text-gray-700 text-base mb-4">
