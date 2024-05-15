@@ -86,7 +86,7 @@ function Initial() {
           <p className="text-left">
             Buscamos herramientas que nos beneficie a nivel profesional y
             personal, a manera de pláticas, talleres, eventos, proyectos. De
-            igual modo, queremos fomentar las mujeres dentro de áreas de STEM.
+            igual modo, queremos impulsar a las mujeres dentro de áreas de STEM.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ function Initial() {
         <div className="absolute top-0 w-full z-0 flex pr-3 justify-end">
           <img
             alt=""
-            className={`w-1/3 ${`transform transition-all duration-500 ease-in-out opacity-0 ${
+            className={`w-1/3 ${`transform transition-all duration-700 ease-in-out opacity-0 ${
               isOpen ? "opacity-100 translate-y-0" : "-translate-y-full"
             }`}`}
             src={WomanImg}
