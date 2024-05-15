@@ -29,14 +29,14 @@
         "image": "Ana-Paula-Martinez.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
+        "about": "Le gusta jugar voleibol y los deportes en general, la música, y conocer lugares nuevos"
       },
       {
         "name": "Carolina Velasco",
         "image": "Carolina-Velasco.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
+        "about": "Le gusta leer, ver películas, hornear y pasar tiempo con su familia y amigos"
       },
       {
         "name": "Valeria Andrade",
@@ -50,7 +50,7 @@
         "image": "Angela-Castro.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
+        "about": "Le gusta dibujar, leer, hacer crochet y escuchar música"
       },
       {
         "name": "Noemí Márquez",
@@ -60,39 +60,39 @@
         "about": "Disfruta de la música, la literatura e interactuar con los animales"
       },
       {
+        "name": "María Paredes",
+        "image": "Maria-Paredes.jpg",
+        "position": "Proyecto 'Programación competitiva'",
+        "year": "2024",
+        "about": "Gusta de ver Kdramas, de  pintar y dibujar, de escribir y componer, y de aprender idiomas"
+      },
+      {
         "name": "Diana Garza",
-        "image": "Diana-Garza.jpg",
+        "image": "",
         "position": "",
         "year": "2024",
         "about": ""
       },
       {
         "name": "Elizabeth Cedillo",
-        "image": "Elizabeth-Cedillo.jpg",
+        "image": "",
         "position": "",
         "year": "2024",
         "about": ""
       },
       {
         "name": "Isabel Sosa",
-        "image": "Isabel-Sosa.jpg",
+        "image": "",
         "position": "",
         "year": "2024",
         "about": ""
       },
       {
         "name": "María Fernanda",
-        "image": "Maria-Fernanda.jpg",
+        "image": "",
         "position": "",
         "year": "2024",
         "about": ""
-      },
-      {
-        "name": "María Paredes",
-        "image": "Maria-Paredes.jpg",
-        "position": "Proyecto 'Programación competitiva'",
-        "year": "2024",
-        "about": "Gusta de ver Kdramas, de  pintar y dibujar, de escribir y componer, y de aprender idiomas"
       }
     ]
   }

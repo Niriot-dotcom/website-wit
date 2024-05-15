@@ -5,6 +5,7 @@ import LogoImg from "../images/logos/logo.png";
 import { COLORS } from "../constants/strings";
 
 function Initial() {
+  const [isOpen, setIsOpen] = useState(false);
   const [images, setImages] = useState([]);
   const [selectedMember, setSelectedMember] = useState({
     name: "",
@@ -38,6 +39,7 @@ function Initial() {
       );
 
     setImages(tempArray);
+    setIsOpen(true);
   }, []);
 
   const InstagramSvg = ({ color }) => {
@@ -66,13 +68,17 @@ function Initial() {
         id="general-description"
         className="h-[70vh] bg-wit-blue text-white relative flex flex-col"
       >
-        <div className="z-10 text-xl p-5">
-          <p className="text-4xl w-2/3">
+        {/* Title */}
+        <div className="h-[20vh] z-10 text-xl p-5 flex items-center">
+          <p className="text-6xl w-2/3">
             ¡Hola!
-            <br />
-            Queremos presentarnos contigo :D.
+            {/* <br />
+            Queremos presentarnos contigo :D. */}
           </p>
-          <br />
+        </div>
+
+        {/* Description */}
+        <div className="h-[30vh] z-10 text-xl p-5">
           <p className="text-left">
             Nosotras somos una comunidad de mujeres en ingeniería.
           </p>
@@ -84,12 +90,18 @@ function Initial() {
           </p>
         </div>
 
-        {/* images */}
-        <div className="absolute top-0 w-full z-0 flex pr-3 justify-end -translate-y-9 ">
-          <img alt="" className="w-1/3 self-end" src={WomanImg} />
+        {/* Woman */}
+        <div className="absolute top-0 w-full z-0 flex pr-3 justify-end">
+          <img
+            alt=""
+            className={`w-1/3 ${`transform transition-all duration-500 ease-in-out opacity-0 ${
+              isOpen ? "opacity-100 translate-y-0" : "-translate-y-full"
+            }`}`}
+            src={WomanImg}
+          />
         </div>
 
-        {/* images */}
+        {/* Logo */}
         <div className="w-full h-[20vh] z-0 flex">
           <img alt="" className="object-cover scale-90" src={LogoImg} />
         </div>
@@ -146,38 +158,44 @@ function Initial() {
           })}
 
         {/* modal */}
-        <dialog id="member-modal" className="modal">
-          <div className="modal-box flex flex-col bg-transparent">
-            <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-ghost bg-wit-green hover:bg-wit-blue z-10 text-white absolute right-2 top-2">
-                ✕
-              </button>
-            </form>
+        {selectedMember && (
+          <dialog id="member-modal" className="modal">
+            <div className="modal-box flex flex-col bg-transparent shadow-none">
+              <form method="dialog">
+                <button className="btn btn-sm btn-circle btn-ghost bg-wit-green hover:bg-wit-blue z-10 text-white absolute right-2 top-2">
+                  ✕
+                </button>
+              </form>
 
-            <div className="overflow-hidden relative rounded-2xl">
-              <img
-                alt="profile"
-                src={require(`../images/members/${selectedMember.image}`)}
-                className="object-cover w-full h-full"
-              />
+              <div className="overflow-hidden relative rounded-2xl shadow-xl">
+                <img
+                  alt="profile"
+                  src={
+                    selectedMember.image === ""
+                      ? require("../images/icons/woman.png")
+                      : require(`../images/members/${selectedMember.image}`)
+                  }
+                  className="object-cover w-full h-full"
+                />
 
-              <div className="w-full h-[20vh] absolute bottom-0 bg-gradient-to-t from-black"></div>
-              <div className="absolute z-20 bottom-0 p-3">
-                <h1 className="text-white text-left text-3xl">
-                  {selectedMember.name}
-                </h1>
-                <div className="border-2 border-wit-green rounded-full w-[90%] my-3"></div>
-                <p className="text-white text-left w-4/5 self-start text-xl">
-                  {selectedMember.about}
-                </p>
+                <div className="w-full h-[20vh] absolute bottom-0 bg-gradient-to-t from-black"></div>
+                <div className="absolute z-20 bottom-0 p-3">
+                  <h1 className="text-white text-left text-3xl">
+                    {selectedMember.name}
+                  </h1>
+                  <div className="border-2 border-wit-green rounded-full w-[90%] my-3"></div>
+                  <p className="text-white text-left w-4/5 self-start text-xl">
+                    {selectedMember.about}
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <form method="dialog" className="modal-backdrop">
-            <button></button>
-          </form>
-        </dialog>
+            <form method="dialog" className="modal-backdrop">
+              <button></button>
+            </form>
+          </dialog>
+        )}
       </section>
       <section id="register-form" className="w-full mt-5 mb-24">
         <div className="w-full h-full">
