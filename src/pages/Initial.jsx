@@ -69,7 +69,7 @@ function Initial() {
         className="bg-wit-blue text-white relative flex flex-col"
       >
         {/* Title */}
-        <div className="z-10 text-xl p-5 flex items-center">
+        <div className="z-10 text-xl p-5 flex items-center h-[24vh] xs:h-[20vh]">
           <p className="text-6xl w-2/3">
             ¡Hola!
             {/* <br />
@@ -78,7 +78,7 @@ function Initial() {
         </div>
 
         {/* Description */}
-        <div className="z-10 text-base xs:text-xl p-5">
+        <div className="z-10 text-lg xs:text-xl p-5">
           <p className="text-left">
             Nosotras somos una comunidad de mujeres en ingeniería.
           </p>
@@ -112,11 +112,13 @@ function Initial() {
       </section>
       <section
         id="social-media"
-        className="bg-wit-blue text-white flex justify-around items-center py-5"
+        className="bg-wit-blue text-white flex justify-around items-center py-5 mx-3"
       >
-        <p className="whitespace-nowrap">Síguenos en Instagram</p>
+        <p className="whitespace-nowrap text-sm mr-2 xs:text-base">
+          Síguenos en Instagram
+        </p>
         <div className="w-fit flex space-x-1 items-center underline rounded-xl py-2 px-3 bg-white shadow-lg shadow-wit-green">
-          <div className="h-5 mr-2">
+          <div className="h-5 mr-1">
             <InstagramSvg color={COLORS.blue} />
           </div>
           <a
