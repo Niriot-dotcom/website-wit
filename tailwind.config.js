@@ -21,13 +21,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "wit-blue": "#502064",
+        "wit-purple": "#502064",
         "wit-blue": "#216583",
         "wit-green": "#3FA796",
         "wit-yellow": "#FFBD35",
-        "wit-light": "#D4EBFA",
+        "wit-light": "#e0f3f0",
       },
     },
   },
-  plugins: [Myclass],
+  plugins: [Myclass, require("daisyui")],
 };
