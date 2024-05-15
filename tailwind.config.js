@@ -27,6 +27,9 @@ module.exports = {
         "wit-yellow": "#FFBD35",
         "wit-light": "#e0f3f0",
       },
+      screens: {
+        xs: "350px",
+      },
     },
   },
   plugins: [Myclass, require("daisyui")],

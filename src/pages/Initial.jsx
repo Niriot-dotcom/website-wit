@@ -63,13 +63,13 @@ function Initial() {
   };
 
   return (
-    <div className="w-full h-full flex flex-col bg-wit-light">
+    <div className="w-full h-full flex flex-col bg-wit-blue">
       <section
         id="general-description"
-        className="h-[70vh] bg-wit-blue text-white relative flex flex-col"
+        className="bg-wit-blue text-white relative flex flex-col"
       >
         {/* Title */}
-        <div className="h-[20vh] z-10 text-xl p-5 flex items-center">
+        <div className="z-10 text-xl p-5 flex items-center">
           <p className="text-6xl w-2/3">
             ¡Hola!
             {/* <br />
@@ -78,7 +78,7 @@ function Initial() {
         </div>
 
         {/* Description */}
-        <div className="h-[30vh] z-10 text-xl p-5">
+        <div className="z-10 text-base xs:text-xl p-5">
           <p className="text-left">
             Nosotras somos una comunidad de mujeres en ingeniería.
           </p>
@@ -102,16 +102,20 @@ function Initial() {
         </div>
 
         {/* Logo */}
-        <div className="w-full h-[20vh] z-0 flex">
-          <img alt="" className="object-cover scale-90" src={LogoImg} />
+        <div className="w-full z-0 flex">
+          <img
+            alt=""
+            className="w-full h-full object-cover scale-90"
+            src={LogoImg}
+          />
         </div>
       </section>
       <section
         id="social-media"
         className="bg-wit-blue text-white flex justify-around items-center py-5"
       >
-        <p>Síguenos en Instagram</p>
-        <div className="flex space-x-1 items-center underline border rounded-xl py-2 px-3 bg-white shadow-lg shadow-wit-green">
+        <p className="whitespace-nowrap">Síguenos en Instagram</p>
+        <div className="w-fit flex space-x-1 items-center underline rounded-xl py-2 px-3 bg-white shadow-lg shadow-wit-green">
           <div className="h-5 mr-2">
             <InstagramSvg color={COLORS.blue} />
           </div>
@@ -125,7 +129,7 @@ function Initial() {
           </a>
         </div>
       </section>
-      <section id="about-us" className="relative p-3 w-full">
+      <section id="about-us" className="relative p-3 w-full bg-wit-light">
         <h1 className="my-5 mb-9 text-4xl text-black">¡Conócenos!</h1>
         {memberGroups
           .filter((group) => group.category === "ACTIVE_MEMBERS")
@@ -138,15 +142,15 @@ function Initial() {
                 {group.members.map((member, index) => {
                   return (
                     <div
-                      className="bg-wit-green text-white cursor-pointer rounded-lg flex flex-col items-center py-3 h-[21vh] hover:shadow-xl hover:scale-90 transition-all duration-300"
+                      className="bg-wit-green text-white cursor-pointer rounded-lg flex flex-col items-center py-3 hover:shadow-xl hover:scale-90 transition-all duration-300 p-1 overflow-hidden"
                       onClick={() => handleSelectMember(member)}
                       key={`members-${i}-${index}-`}
                     >
-                      <div className="w-32 h-32 rounded-[100%] overflow-hidden">
+                      <div class="flex w-[4.5rem] h-[4.5rem] xs:w-24 xs:h-24 shrink-0 grow-0 items-center justify-center rounded-full overflow-hidden">
                         <img
                           alt="profile"
                           src={images[index]}
-                          className="w-full object-cover"
+                          className="w-full h-full object-cover origin-top"
                         />
                       </div>
                       <h1 className="mt-2 mx-1">{member.name}</h1>
@@ -203,7 +207,7 @@ function Initial() {
             target="_blank"
             href="https://forms.gle/KZLokB3PcQhYjCbt8"
             rel="noreferrer"
-            className="font-semibold tracking-wide inline-block text-lg px-6 py-4 leading-none border-4 rounded-full bg-wit-blue text-white border-wit-blue hover:border-transparent hover:bg-white hover:text-wit-blue hover:shadow-2xl mt-4 lg:mt-0 transition-all duration-300"
+            className="font-semibold tracking-wide inline-block text-lg px-6 py-4 leading-none border-4 border-wit-green rounded-full bg-wit-green text-white hover:border-transparent hover:bg-white hover:text-wit-blue hover:shadow-2xl mt-4 lg:mt-0 transition-all duration-300"
           >
             Registrarme
           </a>
