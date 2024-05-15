@@ -3,6 +3,7 @@ import memberGroups from "../db/get-members-2024.json";
 import WomanImg from "../images/woman.png";
 import LogoImg from "../images/logos/logo.png";
 import { COLORS } from "../constants/strings";
+import InstagramLink from "../components/common/InstagramLink";
 
 function Initial() {
   const [isOpen, setIsOpen] = useState(false);
@@ -121,14 +122,7 @@ function Initial() {
           <div className="h-5 mr-1">
             <InstagramSvg color={COLORS.blue} />
           </div>
-          <a
-            className="text-wit-blue font-bold"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.instagram.com/wit_women/"
-          >
-            wit_women
-          </a>
+          <InstagramLink username="wit_women" />
         </div>
       </section>
       <section id="about-us" className="relative p-3 w-full bg-wit-light">
