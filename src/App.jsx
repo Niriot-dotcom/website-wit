@@ -1,6 +1,6 @@
 import "./App.css";
-import AppFooter from "./components/common/AppFooter";
-import AppNavbar from "./components/common/AppNavbar";
+// import AppFooter from "./components/common/AppFooter";
+// import AppNavbar from "./components/common/AppNavbar";
 import AppRouter from "./components/common/AppRouter";
 
 function App() {

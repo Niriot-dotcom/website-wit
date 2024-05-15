@@ -1,15 +1,11 @@
 import React from "react";
-import imgLogoAcmw from "../../images/logos/logo.png";
+import imgLogo from "../../images/logos/logo.png";
 
 function AppNavbar() {
   return (
     <nav className="hidden md:flex items-center justify-between flex-wrap bg-wit-blue p-6 rounded-b-3xl">
       <div className="flex items-center flex-shrink-0 w-1/6">
-        <img
-          className="h-24 w-full object-cover"
-          src={imgLogoAcmw}
-          alt="logo"
-        />
+        <img className="h-24 w-full object-cover" src={imgLogo} alt="logo" />
       </div>
       {/* <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:underline hover:border-white">

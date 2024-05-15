@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import InitialPage from "../../pages/Initial";
-import HomePage from "../../pages/Home";
-import AboutPage from "../../pages/About";
-import MembersPage from "../../pages/Members";
-import ProjectsPage from "../../pages/Projects";
-import EventsPage from "../../pages/Events";
-import ContactPage from "../../pages/Contact";
+// import HomePage from "../../pages/Home";
+// import AboutPage from "../../pages/About";
+// import MembersPage from "../../pages/Members";
+// import ProjectsPage from "../../pages/Projects";
+// import EventsPage from "../../pages/Events";
+// import ContactPage from "../../pages/Contact";
 // import RegisterPage from "../../pages/Register";
 import NotFoundPage from "../../pages/PageNotFound";
 
