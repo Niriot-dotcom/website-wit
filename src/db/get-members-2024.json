@@ -43,7 +43,7 @@
         "image": "Valeria-Andrade.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
+        "about": "Le gusta caminar y las cosas dulces"
       },
       {
         "name": "Ángela Castro",
@@ -51,6 +51,13 @@
         "position": "",
         "year": "2024",
         "about": "Le gusta dibujar, leer, hacer crochet y escuchar música"
+      },
+      {
+        "name": "María Fernanda García",
+        "image": "",
+        "position": "",
+        "year": "2024",
+        "about": "Le gusta la musica, ver películas, pintar y un rico café helado"
       },
       {
         "name": "Noemí Márquez",
@@ -68,27 +75,20 @@
       },
       {
         "name": "Diana Garza",
-        "image": "",
+        "image": "Diana-Garza.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
-      },
-      {
-        "name": "Elizabeth Cedillo",
-        "image": "",
-        "position": "",
-        "year": "2024",
-        "about": ""
+        "about": "Le gustan los musicales, los libros, las rom-coms y el chocolate"
       },
       {
         "name": "Isabel Sosa",
-        "image": "",
+        "image": "Isabel-Sosa.jpg",
         "position": "",
         "year": "2024",
-        "about": ""
+        "about": "Disfruta la música, salir con sus amigas y los gatitos"
       },
       {
-        "name": "María Fernanda",
+        "name": "Elizabeth Cedillo",
         "image": "",
         "position": "",
         "year": "2024",
